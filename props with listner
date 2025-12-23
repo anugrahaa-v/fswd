@@ -1,0 +1,73 @@
+UserProfile.jsx
+const UserProfile = (props) => {
+  return (
+    <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px' }}>
+      <h2>{props.name}</h2>
+      <p>Email: {props.email}</p>
+      <p>Age: {props.age}</p>
+    </div>
+  );
+};
+
+export default UserProfile;
+
+App.jsx
+import UserProfile from "./Form/UserProfile";
+
+
+function App() {
+  const userData = {
+    name: "Eve",
+    email: "eve@example.com",
+    age: 28,
+  };
+
+  return (
+    <div>
+      <h1>User List</h1>
+      <UserProfile
+        name={userData.name}
+        email={userData.email}
+        age={userData.age}
+      />
+    </div>
+  );
+}
+
+export default App;UserProfile.jsx
+const UserProfile = (props) => {
+  return (
+    <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px' }}>
+      <h2>{props.name}</h2>
+      <p>Email: {props.email}</p>
+      <p>Age: {props.age}</p>
+    </div>
+  );
+};
+
+export default UserProfile;
+
+App.jsx
+import UserProfile from "./Form/UserProfile";
+
+
+function App() {
+  const userData = {
+    name: "Eve",
+    email: "eve@example.com",
+    age: 28,
+  };
+
+  return (
+    <div>
+      <h1>User List</h1>
+      <UserProfile
+        name={userData.name}
+        email={userData.email}
+        age={userData.age}
+      />
+    </div>
+  );
+}
+
+export default App;
