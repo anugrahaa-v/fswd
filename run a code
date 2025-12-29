@@ -1,0 +1,3 @@
+npm create vite@latest (folder name)
+cd (folder name)
+npm run dev
